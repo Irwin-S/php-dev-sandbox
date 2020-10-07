@@ -6,8 +6,12 @@ Theme Template: https://developer.wordpress.org/themes/getting-started/what-is-a
 CSS Template: https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
 
 
-
-
+WP Dashboard:
+If we want to get a preview of our archive
+ 1) Posts
+    i) Categories
+    ii) Hover over "uncategorized or archive name"
+    iii) View
 
 Note: Usually WP function that start with "the" are typically self-echoing
       For "get" these typically need to be echoed (Does not apply to get_head/footer)
