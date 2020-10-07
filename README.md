@@ -21,5 +21,10 @@ If we want to get a preview of our archive
     ii) Hover over page you want
     iii) Click preview
 
+ 3) Associating Different Navigation Menus to specific areas
+    i) Dashboard -> Appearance -> Menus
+    ii) Top: Create a New Menu
+    iii) Associate Menu Setting to created Menu
+
 Note: Usually WP function that start with "the" are typically self-echoing
       For "get" these typically need to be echoed (Does not apply to get_head/footer)

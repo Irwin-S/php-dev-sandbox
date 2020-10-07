@@ -13,3 +13,13 @@ register_nav_menus(
         'test_menu'   => 'Test Menu',       
     )
 );
+
+/**
+ * Enqueue theme stylesheets and scripts.
+ */
+
+// This is our OWN function that we're going to run in conjunction with WP functions.
+// Note: we are making an anonymous function but we can make function Name(); if were going to use the Name function elsewhere.
+add_action( 'wp_enqueue_scripts', function () {
+
+} ); 
