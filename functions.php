@@ -29,7 +29,7 @@ add_action( 'wp_enqueue_scripts', function ()
         // The "public" path to the script file.
         get_theme_file_uri( '/assets/js/scripts.js' ), // note: ur'I' = instrument (Note: the version number of the file will alter the get_theme_uri by doing '/assets/js/scripts,js?version=4' -> '/assets/js/scripts,js?version=5')
         // Dependencies (jQuery, Bootstrap, etc.)
-        array( ),
+        array(),
         // Version number of the file. (based on time to fight browser cache!)
         strftime( get_theme_file_uri( '/assets/js/scripts.js' ) ), // String representation for the last time the file was saved
         // Should we output this script in the wp_footer.php?
@@ -38,9 +38,17 @@ add_action( 'wp_enqueue_scripts', function ()
         /**
          * 1) ID
          * 2) Public Path to script file
-         * 3) Dependencies
+         * 3) Dependencies (IF WE HAVE ANY)
          * 4) Version number
          * 5) Boolean
          */
+    );
+    // Enqueue our Stylesheet!
+    wp_enqueue_style(
+        'techcareers-theme-main-styles',
+        get_theme_file_uri( '/assets/css/main.css' ),
+        strftime( get_theme_file_uri( '/assets/css/main.css' ) ),
+        // The type of medio we're targeting (media queries label.)
+        'all'
     );
 } ); 
