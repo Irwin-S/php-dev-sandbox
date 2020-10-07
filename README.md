@@ -16,5 +16,10 @@ If we want to get a preview of our archive
     ii) Hover over "uncategorized or archive name"
     iii) View
 
+ 2) Page
+    i)Pages
+    ii) Hover over page you want
+    iii) Click preview
+
 Note: Usually WP function that start with "the" are typically self-echoing
       For "get" these typically need to be echoed (Does not apply to get_head/footer)
