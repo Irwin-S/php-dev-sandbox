@@ -6,6 +6,9 @@ Theme Template: https://developer.wordpress.org/themes/getting-started/what-is-a
 CSS Template: https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
 
 
+TO FIND MORE INFORMATION ABOUT SPECIFIC WP FUNCTIONS
+Google: WordPress Codex "function_name"
+
 WP Dashboard:
 If we want to get a preview of our archive
  1) Posts
