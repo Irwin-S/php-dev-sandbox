@@ -40,7 +40,7 @@ add_action( 'wp_enqueue_scripts', function ()
          * 2) Public Path to script file
          * 3) Dependencies (IF WE HAVE ANY)
          * 4) Version number
-         * 5) Boolean
+         * 5) Boolean or 'all'
          */
     );
     // Enqueue our Stylesheet!
@@ -48,7 +48,7 @@ add_action( 'wp_enqueue_scripts', function ()
         'techcareers-theme-main-styles',
         get_theme_file_uri( '/assets/css/main.css' ),
         strftime( get_theme_file_uri( '/assets/css/main.css' ) ),
-        // The type of medio we're targeting (media queries label.)
+        // The type of media we're targeting (media queries label.)
         'all'
     );
 } ); 
