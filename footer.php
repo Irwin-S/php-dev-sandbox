@@ -8,6 +8,17 @@
             </a>
             All Rights Reserved.
         </p>
+        <nav>
+            <h2>Footer Navigation</h2>
+            <?php
+            
+                wp_nav_menu(
+                    array(
+                        'theme_location' => 'footer_menu' // Remember its what we defined in functions.php
+                    )
+                );
+            ?>
+        </nav>
     </footer>
     <?php
         // Similiar to wp_head(), but for footer scripts

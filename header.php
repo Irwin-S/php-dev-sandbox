@@ -15,3 +15,14 @@
 </head>
 <body>
     <h1><?php bloginfo( 'title' ); ?></h1>
+    <nav>
+        <h2><?php bloginfo( 'title' ); ?>
+        Navigation
+        </h2>
+        <?php wp_nav_menu( // USer for outpuutiong WP menus
+            array( // Assoc. array of arguments
+                'theme_location' => 'main_menu' // Which menu to display. 
+                // Remember its what we defined in functions.php
+            )
+         ); // takes an array of expected arguments?>
+    </nav>
